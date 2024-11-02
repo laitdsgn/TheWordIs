@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cascadia Code', sans-serif;
+    
+}
+
+body {
+    background-image: url(images/BG.jpg);
+    background-size: cover;
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0);
+  }
+
+#word-guess {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+#word-guess-text {
+    font-weight: 800;
+
+}
+
+#solved {
+    position: relative;
+    /* text-align: center; */
+    font-size: 30px;
+    top: 130px;
+    font-weight: 800;
+}
+
+@keyframes HoverFromTop {
+    0% {
+        top: -200px;
+    }
+
+    100% {
+        top: 130px;
+    }
+}
+
+@keyframes HoverFromDown {
+    0% {
+        top: 480px;
+    }
+
+    100% {
+        top: 150px;
+    }
+}
+
+
+#word {
+    padding: 10px;
+    width: 260px;
+    margin: auto;
+}
+
+
+
+#check {
+    border: 1px solid #131212;
+
+}
+
+#play-again {
+    border: 1px solid #131212;
+    display: none;
+    position: relative;
+    top: 150px;
+}
+
+#info {
+    margin: 20px;
+}
+/* 
+#stars {
+    display: flex;
+    justify-content: center;
+} */
+
+#star1, #star2, #star3 {
+    display: none;
+    width: 64px;
+    position: relative;
+    /* text-align: center; */
+    top: 130px;
+}
+
+.end {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #1d1d1d;
+}
+
+
+
+
